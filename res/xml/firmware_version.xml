@@ -27,14 +27,23 @@
         android:layout="@layout/revera_logo"
         android:selectable="false"/>
 
-    <!-- Android version -->
+    <!-- Android version
     <Preference
         android:key="os_firmware_version"
         android:title="@string/firmware_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>-->
+
+    <!-- Revera version -->
+    <Preference
+        android:key="revera_version"
+        android:title="@string/revera_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.ReveraVersionDetailPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
