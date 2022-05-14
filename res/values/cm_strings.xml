@@ -56,6 +56,10 @@
     <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
     <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
 
+    <!-- General -->
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="longpress_to_clipboard">Long-press to copy</string>
+
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">High touch polling rate</string>
     <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
