@@ -4,4 +4,8 @@
     <string name="build_date">Build date</string>
     <string name="revera_version">revera ui version</string>
     <string name="about_device_name">Device</string>
+
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Connectivity check</string>
+    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Kuketz\'s service. Also used to detect captive portals.</string>
 </resources>
